@@ -36,15 +36,16 @@ body{
     text-align: center;
     background-color: #ffff;
     padding: 0.6rem;
-    max-width: 300px;
+    max-width: 320px;
     border-radius: 15px;
+    letter-spacing: 0.06rem;
     margin:auto;
 }
 
 .qrdiv img{
     
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 300px;
+    max-width: 300px;
     display: flex;
     border-radius: 5px;
 }
@@ -52,7 +53,7 @@ body{
 .qrdiv h3{
     text-align: center;
     padding: 1rem 0.5rem 0.8rem;
-    font-size: 14px;
+    font-size: 15px;
     
 }
 
@@ -64,7 +65,7 @@ body{
     align-items: center;
     text-align: center;
     text-align-last: center;
-    font-size: 12px;
+    font-size: 15px;
     
 
 }
