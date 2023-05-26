@@ -44,8 +44,8 @@ body{
 
 .qrdiv img{
     
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 500px;
+    max-width: 500px;
     display: flex;
     border-radius: 5px;
 }
