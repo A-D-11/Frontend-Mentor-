@@ -1,11 +1,4 @@
 
-/*
-
-- White: hsl(0, 0%, 100%)
-- Light gray: hsl(212, 45%, 89%)
-- Grayish blue: hsl(220, 15%, 55%)
-- Dark blue: hsl(218, 44%, 22%)*/
-
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
 
@@ -35,8 +28,8 @@ body{
     justify-content: center;
     text-align: center;
     background-color: #ffff;
-    padding: 0.6rem;
-    max-width: 320px;
+    padding: 0.9rem;
+    max-width: 330px;
     border-radius: 15px;
     letter-spacing: 0.06rem;
     margin:auto;
@@ -44,8 +37,8 @@ body{
 
 .qrdiv img{
     
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 300px;
+    max-width: 300px;
     display: flex;
     border-radius: 5px;
 }
