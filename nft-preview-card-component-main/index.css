@@ -1,17 +1,4 @@
 
-/*
-- Soft blue: hsl(215, 51%, 70%)
-- Cyan: hsl(178, 100%, 50%)
-
-### Neutral
-
-- Very dark blue (main BG): hsl(217, 54%, 11%)
-- Very dark blue (card BG): hsl(216, 50%, 16%)
-- Very dark blue (line): hsl(215, 32%, 27%)
-- White: hsl(0, 0%, 100%)
-
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -72,7 +59,7 @@ body {
 
 h3 {
     margin-top: 1.5rem;
-    font-size: 20px;
+    font-size: 22px;
     color: #ffff;
     font-weight: 600;
 }
@@ -81,7 +68,7 @@ h3 {
     margin: 0.5rem 0 1rem 0;
     color: hsl(215, 51%, 70%);
     line-height: 25px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .price-days {
@@ -96,7 +83,7 @@ h3 {
     display: flex;
     align-items: center;
     color: hsl(178, 100%, 50%);
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 1px;
 }
 
@@ -108,7 +95,7 @@ h3 {
     display: flex;
     align-items: center;
     color: hsl(215, 51%, 70%);
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .days img {
@@ -118,7 +105,7 @@ h3 {
 .creator {
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 16px;
     color: hsl(215, 51%, 70%);
 }
 
