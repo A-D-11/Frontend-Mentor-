@@ -1,0 +1,149 @@
+
+/*
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    width: 275px;
+    padding: 1.5rem;
+}
+
+.image {
+    position: relative;
+}
+
+.image div {
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 50%);
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.image div:hover {
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.image div img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainimg {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-size: 20px;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.description {
+    margin: 0.5rem 0 1rem 0;
+    color: hsl(215, 51%, 70%);
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.price-days {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.price img {
+    margin-right: 5px;
+}
+
+.days {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+
+.days img {
+    margin-right: 5px;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+.avt {
+    border: 1px solid #ffff;
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 30px;
+}
+
+span {
+    color: white;
+    margin-left: 5px;
+}
+
+.mainimg ,h3 ,span {
+    cursor: pointer;
+}
+
+h3:hover , span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    color: hsl(228, 45%, 44%);
+    font-weight: 300;
+    margin-top: 2rem;
+}
